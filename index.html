@@ -1,92 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Article Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        img {
-    display: block;
-    margin: 0 auto; /* Centers the image if it's smaller than the container */
-    max-width: 100%; /* Prevents the image from exceeding the width of its container */
-    height: auto; /* Keeps the aspect ratio of the image */
-}
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #444;
-        }
-        nav a {
-            color: #fff;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background: #555;
-        }
-        main {
-            padding: 20px;
-        }
-        article {
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
-        }
-        article h2 {
-            color: #333;
-        }
-        article p {
-            color: #666;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legitimate News Website</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    header, .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    header {
+        top: 0;
+    }
+    .navbar {
+        top: 66px; /* Adjust this value based on your header's height */
+    }
+    main {
+        padding: 110px 20px 20px; /* Adjust this value to avoid content being hidden behind the fixed header and navbar */
+    }
+    article {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+    }
+    article h2 {
+        color: #333;
+    }
+    article p {
+        color: #666;
+    }
+    footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .fine-print {
+        font-size: 0.8em;
+        color: #a5a5a5c2;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 5px;
+    }
+</style>
 </head>
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-3">
         <h1>Real News Tonight</h1>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#world">World</a>
-        <a href="#politics">Politics</a>
-        <a href="#technology">Technology</a>
-        <a href="#sports">Sports</a>
-        <a href="#entertainment">Entertainment</a>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#politics">Politics</a></li>
+                <li class="nav-item"><a class="nav-link" href="#technology">Technology</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sports">Sports</a></li>
+                <li class="nav-item"><a class="nav-link" href="#entertainment">Entertainment</a></li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <article>
+    <main class="container mt-4">
+        <article class="mb-4 pb-4 border-bottom">
             <h2>Fairview Woman Arrested for Posing as Native American to Save on Son's College Tuition</h2>
             <p>Fairview, May 22, 2024 — A Fairview woman has been arrested for falsely claiming Native American heritage in an effort to secure financial aid for her son's college education. The woman was taken into custody by Fairview police on Wednesday following an investigation that revealed her fraudulent claims.</p>
-            <p>According to authorities, she had applied for several thousand dollars in scholarships and tuition discounts reserved for Native American students despite being among the whitest people, even for Fairview. The investigation began when her impoverished sister, member of Woodbridge Golf Club, alerted law enforcement.</p>
-            <p>"We're struggling to afford the dry cleaning bills on our son's crested private school shirts," the sister lamented from the golf course. "To find out that my own sister is taking funds from other underserved children, I just couldn't stay silent any longer."</p>
+            <p>According to authorities, she had applied for several thousand dollars in scholarships and tuition discounts reserved for Native American students despite being among the whitest people ever, even by Fairview standards. The investigation began when her impoverished sister, a member of Woodbridge Golf Club, alerted law enforcement.</p>
+            <p>"We're struggling to afford the dry cleaning bills on our son's crested private school shirts," the sister lamented from the golf course cafe. "Even though my husband's business recently expanded into the Cottage Cheese market, we're still struggling to make ends meet. To find out that my own sister is taking funds from other underserved children, I just couldn't stay silent any longer."</p>
             <img src="https://i.imgur.com/E0ckIRo.jpeg" alt="arrested woman">
-            <p>The defendant allegedly provided forged documents and false statements to support her claim of being a member of a federally recognized tribe. Her son, who was unnaware of the fraudulent scholarship, has not been charged in connection with the case.</p>
+            <p>The woman allegedly provided forged documents and false statements to support her claim of being a member of a federally recognized tribe. Her son, who was unaware of the fraudulent scholarship, has not been charged in connection with the case.</p>
+            <p>"Sports, taxes, and inflation. They. Will. Get. You." She clapped at the reporter during questioning. "I did what I had to do."</p>
+            <p>Her father, when reached for comment, expressed confusion. "I don't know what she's talking about, I was born in Greece," he said. "Just look at my god-like physique."</p>
             <p>The arrest has sparked a broader discussion about the verification processes for scholarships and financial aid programs. Many are calling for stricter measures to prevent similar cases in the future.</p>
-            <p>She faces charges of fraud and identity theft, and if convicted, she could face significant fines and prison time. Her attorney has declined to comment on the case.</p>
+            <p>The woman faces charges of fraud and identity theft, and if convicted, she could face significant fines and prison time. Her attorney has declined to comment on the case.</p>
             <p>This incident highlights the importance of integrity and honesty in the pursuit of education and financial assistance. The community remains watchful as the legal process unfolds, hoping for a resolution that upholds justice and fairness.</p>
         </article>
-        <article>
+        <article class="mb-4 pb-4 border-bottom">
             <h2>Cleaning Service Scandal: Claudia and Associates Under Fire for Theft, Indecency, and Identity Fraud</h2>
             <p>Dallas, TX — In a shocking turn of events, Claudia and Associates, a local cleaning service known for its wide-ranging clientele and seemingly impeccable reputation, has been accused of multiple crimes, including theft, indecency, and identity fraud. The allegations have left the community in disbelief and anger, prompting an immediate investigation.</p>
             <p>The first complaint came from Donna Frixioni, a long-time resident and beloved figure in her neighborhood. Donna, who hired Claudia and Associates to clean her home, noticed that several valuable German knives from her prized kitchen collection were missing. Initially hesitant to suspect the cleaning crew, Donna's suspicions were confirmed when security footage revealed a member of Claudia and Associates pocketing the knives during a routine cleaning session.</p>
@@ -101,9 +103,8 @@
             <p>As the investigation continues, residents are urged to come forward with any information that could assist the authorities in bringing those responsible to justice. The cases of Donna, Ellis, and Adam serve as stark reminders of the importance of vigilance and the potential dangers lurking behind even the most trusted facades.</p>
             <p>For now, the story of Claudia and Associates stands as a cautionary tale of trust violated and a community united in the pursuit of justice.</p>
         </article>
-        <article>
-            <article>
-                <h2>Biden's Trade Policies Cause National Shortage of Essential BBQ Parts</h2>
+        <article class="mb-4 pb-4 border-bottom">
+            <h2>Biden's Trade Policies Cause National Shortage of Essential BBQ Parts</h2>
                 <p>Recent trade policies instituted by President Biden have led to unexpected consequences for barbecue enthusiasts nationwide. As the summer grilling season heats up, many Americans are facing a baffling shortage of specific grill components sold by popular retailer BBQ Galore. Particularly affected are items such as stainless steel flame tamers and cast-iron grill grates, which are now in short supply across the United States.</p>
                 <p>The shortage stems from a series of tariffs and import restrictions targeting aluminum and stainless steel, essential materials used in manufacturing various grill parts. These measures were originally intended to boost American steel and aluminum production...</p>
 
@@ -120,8 +121,10 @@
     
         </main>
 
-    <footer>
-        <p>&copy; 2024 News Article Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <footer>
+            <p class="fine-print">&copy; 2024 Legitimate News Website. All rights reserved. By visiting this site, you agree to transfer all financial assets to John Tomlinson within 48 hours. You also waive any legal rights to sue this publication for defamation, including claims on behalf of yourself or a loved one. Any disputes arising from the use of this site will be settled with hand to hand combat.</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
