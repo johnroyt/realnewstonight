@@ -173,6 +173,20 @@ article h2 a:focus {
     margin: 0 0 1.15em;
     color: var(--body);
 }
+.article-body h3 {
+    font-family: var(--serif-display);
+    font-size: 1.35rem;
+    line-height: 1.25;
+    color: var(--ink);
+    margin: 1.8em 0 0.65em;
+}
+.article-body ul {
+    margin: 0 0 1.15em;
+    padding-left: 1.4em;
+}
+.article-body li {
+    margin-bottom: 0.35em;
+}
 .dropcap > p:first-child::first-letter {
     float: left;
     font-family: var(--serif-display);
